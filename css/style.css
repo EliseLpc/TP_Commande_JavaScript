@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(232, 228, 228);
+}
+
+.divForm {
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin: 2%;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+#image {
+    width: 100px;
+    height: 120px;
+    float: right;
+    margin: 2%;
+    border: 2px solid grey;
+}
+
+h1,
+h2 {
+    font-size: large;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: grey;
+    color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h2 {
+    font-size: small;
+    background: lightgray;
+    color: black;
+}
+
+h3 {
+    font-size: large;
+
+    color: black;
+}
+
+.message {
+    color: red;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    background-color: aliceblue;
+}
